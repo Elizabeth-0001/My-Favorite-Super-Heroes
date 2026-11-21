@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- STEP: write a title and description for THIS page -->
+  <title>MY FAVOURITE SUPER HEROES</title>
+  <meta name="description" content="A site about my favourite super heroes">
+</head>
+<body>
+
+  <!-- HEADER: this block must be the SAME on every page (only the h1 text changes) -->
+  <header>
+    <h1>Vote for Your Hero</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="heroes.html">My Top 5 Heroes</a> |
+      <a href="contact.html">Vote for Your Hero</a>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <section>
+      <h2>Who is YOUR favorite hero?</h2>
+      <p>Fill out this form to vote for your favorite superhero!</p>
+
+      <form action="#" method="post">
+
+        <!-- FIELD 1: Name (finished for you - study it).
+             "required" means the browser will not let the form be sent empty. -->
+        <p>
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <!-- FIELD 2: Email. Fill the blanks.
+             Hint: type="email" gives you free email checking.
+             The label's "for" and the input's "id" must be the same word. -->
+        <p>
+          <label for="Email">Your Email:</label><br>
+          <input type="Email" id="Email" name="email" required>
+        </p>
+
+        <!-- FIELD 3: Dropdown list of your 5 heroes (Part D of your planner).
+             You need ONE <option> for each hero. Copy the option line 4 more times. -->
+        <p>
+          <label for="hero">Choose Your Hero:</label><br>
+          <select id="hero" name="hero">
+            <option value="SpiderMan">SpiderMan</option>
+            <option value="SuperMan">SuperMan</option>
+            <option value="Captain America">Captain America</option>
+            <option value="Flash">Flash</option>
+          </select>
+        </p>
+
+        <!-- BUTTON: what type of button sends a form? -->
+        <p>
+          <button type="submit">Submit My Vote</button>
+        </p>
+
+      </form>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- FOOTER: copy this onto every page -->
+  <footer>
+    <p>Made by Munzy Crystal &copy; 2026</p>
+  </footer>
+
+</body>
+</html>
+  
